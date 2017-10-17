@@ -1,0 +1,15 @@
+body {
+	direction: rtl;
+	text-align:right;
+}
+
+.horizontal-top {
+	background-color: rgba(128, 128, 128, 0.767);
+	padding: 20;
+	
+}
+.horizontal-top > ul > li {
+	display: inline;
+	padding: 20;
+	
+}
