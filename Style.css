@@ -73,8 +73,12 @@ margin-left: 150px;
 	  .row {
 		  position: relative;
 		  float: right;
-		  width: 33%;
+		  width: 25%;
 		  padding-top: 30px;
+	  }
+
+	  .Big_pics {
+		border-bottom-right-radius: 20px;
 	  }
 	  
 	  .text-data {
@@ -116,6 +120,10 @@ margin-left: 150px;
 		
 	}
 
-	.row >a:hover  {
+	.row >a:hover {
+        color: blue;
+	}
+
+	.row >read_more:hover {
         color: blue;
 	}
