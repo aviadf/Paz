@@ -119,13 +119,65 @@ margin-left: 150px;
 		color:white;
 		margin-top:-110px;
 		margin-right: 230px;
+		position: relative;
 		
 	}
 
 	.row >a:hover {
+		color: blue;
+	}
+
+	.row :hover {
         color: blue;
 	}
 
-	.row >read_more:hover {
-        color: blue;
+	.short_row {
+		position: relative;
+		clear: right;
+		padding-top: 40px;
+		
+	}
+
+	.Small-rectangles {
+		position: absolute;
+		margin-right: -265px;
+		padding-top: 50px; 
+	}
+
+	.h11 {
+		position: absolute;
+		font-family: arial;
+		font-size: 16px;
+		margin-right: 20px;
+		color: rgba(0, 0, 0, 0.534);
+		margin-top: -205px;
+	}
+
+	.short_row >a {
+		font-family: arial;
+		font-size: 12px;
+		color:rgba(0, 0, 0, 0.753);
+		margin-right: -95px;
+		position: relative;
+		float: initial;
+	}
+
+	.footer {
+		position: fixed;
+		
+	}
+
+	.bottom-texts {
+		background-color: rgba(128, 128, 128, 0.767);
+		padding: 12;
+		font-family: arial;
+		
+		
+	}
+
+	.bottom-content >li >a {
+		padding: 5px;
+		text-decoration: none;
+		border-right-style: solid;
+		color: white;
 	}
